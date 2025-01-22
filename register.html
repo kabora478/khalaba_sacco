@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khalaba Ward Farmers' SACCO - Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header class="bg-success text-white py-3">
+        <div class="container">
+            <h1 class="text-center">Khalaba Ward Farmers' SACCO</h1>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title text-center">Member Registration</h2>
+                        <form action="dashboard.html" method="post">
+                            <div class="mb-3">
+                                <label for="full-name" class="form-label">Full Name</label>
+                                <input type="text" id="full-name" name="full-name" class="form-control" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" id="password" name="password" class="form-control" placeholder="Create a password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="confirm-password" class="form-label">Confirm Password</label>
+                                <input type="password" id="confirm-password" name="confirm-password" class="form-control" placeholder="Confirm your password" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="documents" class="form-label">Upload Documents (KYC)</label>
+                                <input type="file" id="documents" name="documents" class="form-control" multiple required>
+                            </div>
+                            <div class="mb-3 text-center">
+                                <button type="submit" class="btn btn-success w-100">Register</button>
+                            </div>
+                            <div class="text-center">
+                                <p>Already have an account? <a href="login.html">Login here</a></p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Khalaba Ward Farmers' SACCO. All rights reserved.</p>
+            <a href="contact.html" class="text-white">Contact Us</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
